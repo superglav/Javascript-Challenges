@@ -1,0 +1,56 @@
+html, body{
+    background-image: url("blackjack\ background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+#h1 {
+    text-align: center;
+}
+h1 {
+    font-size: 4em;
+    display: inline-block;
+    /* background: linear-gradient(246.26deg, #ED4683 0%, #F48E14 100%); */
+    border-radius: 100px;
+    border: 30px;
+    padding: 0 10px;
+    text-align: center;
+    
+    
+}
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+p{
+    font-size: 2em;
+}
+#btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background: linear-gradient(246.26deg, #ED4683 0%, #F48E14 100%); */
+    background: rgb(212, 131, 24);
+    width:250px;
+    font-size: 2.5em;
+    color: rgb(26, 119, 34);
+    border: none;
+
+}
+#btnBet > #btn10,#btn20,#btn50{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    margin: 20 15 0 15;
+
+}

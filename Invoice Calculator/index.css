@@ -1,0 +1,78 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+#body-container {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin: 40px 20px;
+}
+
+#cont-section1{
+    margin: 50px 0 0 0;
+    padding: 50px 0;
+    background-color: rgb(0, 110, 255);
+    color: aliceblue;
+    font-size: larger;
+}
+
+#cont-section2{
+    padding: 30 50 50 50;
+    background-color: rgb(24, 25, 73);
+    color: aliceblue;
+}
+
+button{
+    background-color: rgb(182, 201, 218);
+    color: rgb(24, 25, 73);
+    font-size: 15px;
+    padding: 10 20;
+    margin: 0 10;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.parentflex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.childfLex {
+    flex: 1;
+}
+
+#container3{
+    text-align: left;
+}
+#container4{
+    text-align: right;
+    
+}
+.buttonflex{
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+.btn1,.btn2,.btn3{
+    flex-grow: 3;
+
+}
+
+#note-section{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    
+}
+
+.grid-item1 {
+    grid-row: 1/1;
+}
+.grid-item2 {
+    grid-row: 2/2;
+}
+
